@@ -1,0 +1,93 @@
+/* Import Reset */
+/* _reset.scss */
+html,
+body,
+h1,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+/** {
+	border: 1px solid red !important;
+}*/
+/* Set variables */
+/* setup mixins */
+/* layout styles */
+body {
+  font-size: 1.1em; }
+
+header, footer {
+  display: block;
+  min-height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background-color: #0ABBFF; }
+
+/* Level 1 flex layout - article and sidebar */
+#main {
+  display: flex;
+  flex-flow: row;
+  min-height: 800px;
+  margin: 10px;
+  padding: 10px; }
+
+#main > article {
+  flex: 2 1 66.666%;
+  order: 1px;
+  margin: 10px; }
+
+#main > aside {
+  flex: 1 2 33.333%;
+  order: 2px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #FF8500; }
+
+/* Level 2 flex layout - rows within article */
+.Row {
+  flex: 1 1 100%;
+  flex-flow: column;
+  min-height: 100px; }
+
+/* Level 3 flex layout - individual items nested within rows */
+.Grid {
+  display: flex;
+  flex-flow: row; }
+  .Grid img {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #76D9FF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px; }
+
+.Grid--full {
+  flex: 1 1 100%;
+  padding: 5px; }
+
+.Grid--1of2 {
+  flex: 1 1 50%;
+  padding: 5px; }
+
+.Grid--1of3 {
+  flex: 1 1 33.33333%;
+  padding: 5px; }
+
+.Grid--1of4 {
+  flex: 1 1 25%;
+  padding: 5px; }
+
+/* breakpoint to make responsive */
+@media all and (max-width: 600px) {
+  #main, .Grid {
+    flex-direction: column; } }
+
+/*# sourceMappingURL=sass_stylesheet.css.map */

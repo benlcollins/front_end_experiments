@@ -1,0 +1,16 @@
+/* _reset.scss */
+
+html,
+body,
+h1,
+p,
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
