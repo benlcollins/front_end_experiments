@@ -1,0 +1,93 @@
+/*
+Custom CSS for benlcollins.com wordpress site
+*/
+.codewrapper {
+	background: #f5f5f5;
+	margin: 0 0 20px 5px;
+	padding: 7px 7px 7px 12px;
+	border-left: 3px solid #ff4d4d;
+	font-family: monospace, serif;
+	font-size: 13px;
+}
+
+.container {
+	margin-right: 40px;
+	margin-bottom: 40px;
+	float: left;
+}
+
+.logo_grid {
+	clear: both;
+}
+
+.logo_style_blue {
+	text-decoration: none;
+	background-color: #08699D;
+	color: #fff;
+	font: 48px/64px "Fredoka One", Helvetica, Arial, sans-serif;
+	height: 1.5em;
+	width: 1.5em;
+	text-align: center;
+	border: 5px solid white;
+	border-radius: 50%;
+	box-shadow: 0 0 0 .14em #08699D;
+/* padding: 10px 0 0 10px; */
+/* to fine tune letter position */
+}
+
+.logo_style_orange {
+	background-color: #F75F00;
+	color: white;
+	font: 48px/64px "Fredoka One", Helvetica, Arial, sans-serif;
+	height: 1.5em;
+	width: 1.5em;
+	text-align: center;
+	border: 5px solid white;
+	border-radius: 50%;
+	box-shadow: 0 0 0 .14em #F75F00;
+/* padding: 10px 0 0 10px; */
+/* to fine tune letter position */
+}
+
+.logo_style_green {
+	background-color: #2FAC1C;
+	color: white;
+	font: 48px/64px "Fredoka One", Helvetica, Arial, sans-serif;
+	height: 1.5em;
+	width: 1.5em;
+	text-align: center;
+	border: 5px solid white;
+	border-radius: 50%;
+	box-shadow: 0 0 0 .13em #2FAC1C;
+/* padding: 10px 0 0 10px; */
+/* to fine tune letter position */
+}
+
+.logo_style_blue_halfway1 {
+	text-decoration: none;
+	background-color: blue;
+	color: #fff;
+	font: 48px/64px Helvetica, Arial, sans-serif;
+	height: 1.5em;
+	width: 1.5em;
+	text-align: center;
+}
+
+.logo_style_blue_halfway2 {
+	text-decoration: none;
+	background-color: blue;
+	color: #fff;
+	font: 48px/64px Helvetica, Arial, sans-serif;
+	height: 1.5em;
+	width: 1.5em;
+	text-align: center;
+	border: 5px solid white;
+	border-radius: 50%;
+	box-shadow: 0 0 0 .14em blue;
+}
+
+/* This is the code to add to the header.php file to include the Fredoka One font. Need to copy in after update 
+
+ <link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+
+*/
